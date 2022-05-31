@@ -73,5 +73,5 @@ app.delete('/quotes', (req,res) => {
 
 // server listen
 app.listen((process.env.PORT || PORT),()=>{
-  console.log(`Server listening on PORT:${PORT}`);
+  console.log(`Server started`);
 })
